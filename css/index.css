@@ -1,0 +1,104 @@
+.navbar .nav-link.active{
+    color: #007cf0 !important;
+    border-bottom: 2px solid #007cf0;
+}
+.head a{
+    text-decoration: none;
+}
+.head a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .head2{
+    display: none;
+}
+.head{
+    text-align: center;
+}    
+}
+@media (min-width: 992px){
+.div6{
+    display: none;
+}
+}
+.main{
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.btn1 button{
+    background-color:rgba(173, 216, 230, 0.3);
+    color: white;
+}
+.btn1 button:hover{
+    background-color:white;
+    color: #007cf0;
+}
+.div1:hover{
+    background-color: #007cf0;
+    color: white;
+}
+.div1:hover .icon{
+    background-color: white;
+    color: #007cf0;
+}
+.div1 .icon{
+    background-color: #007cf0;
+    color: white;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 15px;
+  padding: 10px 15px;
+}
+.div2 p{
+    font-size: 0.9rem;
+}
+.div2 a{
+    text-decoration: none;
+    color: black;
+}
+.div3 p{
+    font-size: 0.9rem;
+}
+.div3 a{
+    text-decoration: none;
+}
+.div4 .icon{
+    width: 35px; 
+    height: 35px; 
+    background-color: #00000011;
+}
+.div4 .icon:hover{
+    background-color: #007cf0;
+    color: white;
+}
+.div5 .icon{
+    width: 40px; 
+    height: 40px;
+    color: #000000BF;
+    border: 1px solid #00000033;
+}
+.div5 .icon:hover{
+    color: #007cf0;
+    border: 1px solid #007cf0;
+}
+.div7 a:hover{
+    color: #007cf0;
+}
+.btn2:hover{
+    color: #007cf0;
+}
+.div8 a{
+    color: black;
+}
+.nav-tab .nav-link.active{
+    border-right: 2px solid #0d6efd !important;
+}
+.div9 img:hover{
+    transform: scale(1.1,1.1);
+}
